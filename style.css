@@ -1,0 +1,15 @@
+.button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: linear-gradient(to bottom right, rgb(182, 80, 250), rgb(122, 204, 241));
+    padding: 8px 15px;
+    margin-left: 5px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+.glow-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(69, 19, 105, 0.4);
+}
